@@ -1,0 +1,164 @@
+{
+  "boss": [
+    {
+      "name": "Andrius",
+      "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a4/Andrius_Icon.png/revision/latest/scale-to-width-down/185?cb=20200724104034",
+      "drops": [
+        {
+          "name": "Tail of Boreas",
+          "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/66/Item_Tail_of_Boreas.png/revision/latest/scale-to-width-down/74?cb=20210106070608"
+        },
+        {
+          "name": "Ring of Boreas",
+          "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d6/Item_Ring_of_Boreas.png/revision/latest/scale-to-width-down/74?cb=20210106070626",
+          "amount": 1
+        },
+        {
+          "name": "Spirit Locket of Boreas",
+          "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/81/Item_Spirit_Locket_of_Boreas.png/revision/latest/scale-to-width-down/74?cb=20210106070646",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Dvalin",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Childe",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Azhdaha",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "La Signora",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Mikoto",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Shouki",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    },
+    {
+      "name": "Guardian",
+      "drops": [
+        {
+          "name": "item1",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item2",
+          "img": "",
+          "amount": 1
+        },
+        {
+          "name": "item3",
+          "img": "",
+          "amount": 1
+        }
+      ]
+    }
+  ]
+}

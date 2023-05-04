@@ -1,0 +1,24 @@
+{
+  "name": "genshinchartsite",
+  "version": "1.0.0",
+  "description": "Genshin Impact infographic site implemented using multiple frameworks/technologies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antpowell/genshin-impact-infographic-site.git"
+  },
+  "keywords": [
+    "Genshin",
+    "Impact",
+    "Infographic"
+  ],
+  "author": "Powell, Anthony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antpowell/genshin-impact-infographic-site/issues"
+  },
+  "homepage": "https://github.com/antpowell/genshin-impact-infographic-site#readme"
+}
