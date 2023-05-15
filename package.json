@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/antpowell/genshin-impact-infographic-site/issues"
   },
-  "homepage": "https://github.com/antpowell/genshin-impact-infographic-site#readme"
+  "homepage": "https://github.com/antpowell/genshin-impact-infographic-site#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }

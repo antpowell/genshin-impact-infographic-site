@@ -1,0 +1,10 @@
+{
+    "imports": {
+      "std/": "https://deno.land/std@0.186.0/"
+    },
+    "tasks": {
+      "dev:core": "deno run --allow-net --allow-read --watch ./Frameworkless/server.ts",
+      "dev:oak": "deno run --allow-net --allow-read --watch ./Frameworkless/oak-server.ts",
+      "serve": "deno run --allow-net server.ts"
+    }
+  }

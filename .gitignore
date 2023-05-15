@@ -1,0 +1,21 @@
+*.orig
+*.pyc
+*.swp
+.env
+
+/.vs/
+/.vscode/
+/target/
+/std/hash/_wasm/target
+/tools/wpt/manifest.json
+/node_modules/
+
+# Flamegraphs
+/flamebench*.svg
+/flamegraph*.svg
+
+# WPT generated cert files
+/tools/wpt/certs/index.txt*
+/tools/wpt/certs/serial*
+
+/ext/websocket/autobahn/reports
