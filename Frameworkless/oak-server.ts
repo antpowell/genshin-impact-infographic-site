@@ -1,20 +1,6 @@
+// Deno server using oak framework. Documentation: https://deno.land/x/oak
 import { Application, helpers, Router } from "https://deno.land/x/oak/mod.ts";
 import { fileHandler } from "./fileHandler.ts";
-
-const BASE_PATH = `${Deno.cwd()}/Frameworkless/src`;
-
-// const fileExists = async (path: string) => {
-//   try {
-//     const stats = await Deno.lstat(path);
-//     return stats && stats.isFile;
-//   } catch (e) {
-//     if (e && e instanceof Deno.errors.NotFound) {
-//       return false;
-//     } else {
-//       throw e;
-//     }
-//   }
-// };
 
 const router = new Router();
 router
@@ -40,22 +26,8 @@ router
     console.log(ctx.params);
     ctx.response.body = `Weekly ${boss}\n${JSON.stringify(ctx.params)}}`;
   });
-//   .all("/:path*", async (ctx) => {
-//     const { path } = ctx.params;
-//     const page = await Deno.readTextFile(`${BASE_PATH}/src/${path}`);
-//     if (await fileExists(`${BASE_PATH}/src/${path}`)) {
-//       console.log(path);
-//       ctx.response.body = page;
-//     } else {
-//       console.log(`${BASE_PATH}/src/${path} not found`);
-//       ctx.response.body = `404 @ ${BASE_PATH}/src/${path}`;
-//     }
-//     // const query = helpers.getQuery(ctx, {mergeParams: true});
-//     // ctx.response.body = `Query: ${JSON.stringify(query)}`;
-//   });
 
 // create oak router that serves static sites from the src/pages folder
-
 const app = new Application();
 app.use(fileHandler);
 app.use(router.routes());
