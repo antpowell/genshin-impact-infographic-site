@@ -3,4 +3,3 @@ type Boss =[
     img: ??;
     dropCount: number;
   ];
-  
