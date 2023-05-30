@@ -1,5 +1,5 @@
 type Boss =[
-    name: string;
-    img: ??;
-    dropCount: number;
+    name: string,
+    img: ??,
+    dropCount: number,
   ];
