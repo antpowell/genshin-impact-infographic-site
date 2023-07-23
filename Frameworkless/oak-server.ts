@@ -1,20 +1,37 @@
-// Deno server using oak framework. Documentation: https://deno.land/x/oak
+/**
+ * @fileoverview Deno server using oak framework.
+ * @version 0.0.1
+ *
+ * @requires deno
+ * @requires oak
+ *
+ * Documentation
+ * - Deno: https://deno.land/manual
+ * - Oak: https://deno.land/x/oak
+ */
+
 import { Application, helpers, Router } from "https://deno.land/x/oak/mod.ts";
 import { fileHandler } from "./fileHandler.ts";
 
 const router = new Router();
+
+const BASE_PATH = `${Deno.cwd()}/Frameworkless`;
+const routesPath = `${BASE_PATH}/src/routes`;
+
 router
-  .get("/", async (ctx) => {
+  .get("/:route/*", async (ctx) => {
+    const { route } = ctx.params;
     const homePage = await Deno.readTextFile(
-      // `${BASE_PATH}/src/pages/home/home.html`,
-      "",
+      `${routesPath}${route}`,
+      // "",
     );
     // await ctx.send({
-    //     root: `${BASE_PATH}/src/pages/home`,
-    //     index: 'home.html'
+    //   root: `${rou}/src/pages/home`,
+    //   index: 'home.html'
     // });
-    //   ctx.response.body = `${BASE_PATH}/src/pages/home/home.html`;
-    //   ctx.response.headers.set("Content-Type", "text/html");
+    ctx.response.body = `${BASE_PATH}/src/pages/home/home.html`;
+    ctx.response.headers.set("Content-Type", "text/html");
+    console.log(`navigating to ${BASE_PATH}/src/pages/home/home.html`)
     ctx.response.body = homePage;
     ctx.response.headers.set("Content-Type", "text/html");
   })
